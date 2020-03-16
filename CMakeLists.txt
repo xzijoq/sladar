@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.14)
+project (sladar)
+add_executable(sladar)
+target_sources(sladar PUBLIC src/main.cpp)
+target_include_directories(sladar PUBLIC includes)
